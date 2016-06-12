@@ -554,7 +554,7 @@
 		// Find the closest javascript page element to gather settings data jsperf test
 		// http://jsperf.com/single-complex-selector-vs-many-complex-selectors/edit
 		// possibly naive, but it shows that the parsing overhead for *just* the page selector vs
-		// the page and dialog selector is negligable. This could probably be speed up by
+		// the page and dialog selector is negligible. This could probably be speed up by
 		// doing a similar parent node traversal to the one found in the inherited theme code above
 		closestPageData: function( $target ) {
 			return $target

@@ -21,7 +21,7 @@ document.addEventListener('deviceready',function() {
         url: 'http://auth0-nodejsapi-sample.herokuapp.com/secured/ping',
         method: 'GET'
       }).then(function(data, textStatus, jqXHR) {
-        alert("The request to the secured enpoint was successfull");
+        alert("The request to the secured enpoint was successful");
       }, function() {
         alert("You need to download the server seed and start it to call this API");
       });
